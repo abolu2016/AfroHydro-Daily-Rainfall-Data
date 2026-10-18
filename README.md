@@ -6,8 +6,8 @@ AfroHydro-1 V2 is a near-real-time daily precipitation analysis framework develo
 
 The current operational version integrates two precipitation information sources:
 
-- NOAA Global Forecast System (GFS):** 24-hour accumulated precipitation, used as the background field.
-- NASA Integrated Multi-satellitE Retrievals for GPM (IMERG) V07:** Daily satellite precipitation estimates, used as pseudo-observations. IMERG Early is preferred, with IMERG Late as a fallback when available.
+- NOAA Global Forecast System (GFS):24-hour accumulated precipitation, used as the background field.
+- NASA Integrated Multi-satellitE Retrievals for GPM (IMERG) V07:Daily satellite precipitation estimates, used as pseudo-observations. IMERG Early is preferred, with IMERG Late as a fallback when available.
 
 The datasets are integrated using a spatial optimal interpolation (OI) framework operating in log-transformed precipitation space.
 
