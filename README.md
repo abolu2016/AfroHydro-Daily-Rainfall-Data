@@ -1,4 +1,12 @@
 # AfroHydro-1 V2: Near-Real-Time Daily Precipitation Analysis for Africa
+## Latest Daily Precipitation Analysis
+
+![Latest AfroHydro-1 Daily Rainfall Map](docs/latest.png)
+
+View the operational rainfall portal:
+https://abolu2016.github.io/AfroHydro-Daily-Rainfall-Data/
+
+Daily precipitation analyses are typically available by 21:00 UTC.
 
 Overview
 
