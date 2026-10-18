@@ -1,6 +1,6 @@
 # AfroHydro-1 V2: Near-Real-Time Daily Precipitation Analysis for Africa
 
-## Overview
+Overview
 
 AfroHydro-1 V2 is a near-real-time daily precipitation analysis framework developed to provide spatially continuous rainfall estimates across Africa.
 
@@ -11,7 +11,7 @@ The current operational version integrates two precipitation information sources
 
 The datasets are integrated using a spatial optimal interpolation (OI) framework operating in log-transformed precipitation space.
 
-## Operational Coverage and Availability
+Operational Coverage and Availability
 
 Attribute Description 
 
@@ -28,7 +28,7 @@ Gauge assimilation Not included in the current near-real-time version
 
 Daily products represent the preceding completed UTC calendar day. Publication is subject to the availability of upstream datasets, successful processing, and quality-control checks.
 
-## Rain-Gauge Observations and Retrospective Reanalysis
+Rain-Gauge Observations and Retrospective Reanalysis
 
 The current operational version does not assimilate ground-based rain-gauge observations.
 
@@ -40,7 +40,7 @@ However, the framework is designed to support retrospective gauge-informed reana
 
 Such retrospective analyses would be identified and versioned separately from the original near-real-time products to preserve scientific traceability.
 
-## Data Access
+Data Access
 
 Daily precipitation GeoTIFFs are organized by year and month:
 
@@ -55,7 +55,7 @@ The repository also provides:
 
 Interactive portal: https://abolu2016.github.io/AfroHydro-Daily-Rainfall-Data/
 
-## Scientific Interpretation
+Scientific Interpretation
 
 AfroHydro-1 V2 is a satellite- and forecast-informed precipitation analysis, not a gauge-validated observational product.
 
@@ -63,7 +63,7 @@ The near-real-time analyses should be interpreted with appropriate consideration
 
 Future retrospective gauge-informed versions may provide improved observational constraints, but such improvements require independent evaluation and validation.
 
-## Version Information
+Version Information
 
 AfroHydro-1 V2 — Operational Near-Real-Time Release
 
